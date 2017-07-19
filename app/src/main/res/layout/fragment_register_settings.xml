@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/registersettings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/settings_addr"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/settings_addrtextview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:gravity="center_vertical"
+            android:text="@string/addr_settings"
+            android:textSize="16sp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/dayuhao1"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="@string/hello_world"
+            android:src="@drawable/dayuhao"/>
+        
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/register_fengefu2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+
+    <LinearLayout
+        android:id="@+id/settings_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/settings_passwordtextview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:gravity="center_vertical"
+            android:text="@string/password_settings"
+            android:textSize="16sp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/dayuhao2"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="@string/hello_world"
+            android:src="@drawable/dayuhao"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/register_fengefu3"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+    <LinearLayout
+        android:id="@+id/settings_aboutus"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/settings_aboutustextview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:gravity="center_vertical"
+            android:text="@string/aboutus"
+            android:textSize="16sp"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:id="@+id/dayuhao3"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="center_vertical"
+            android:contentDescription="@string/hello_world"
+            android:src="@drawable/dayuhao"/>
+    </LinearLayout>
+
+    <com.samsung.isharecar.RevealLayout
+        android:id="@+id/reveallayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/quitbutton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="100dp"
+            android:background="@color/white"
+            android:text="@string/quit"
+            android:textColor="@color/red"
+            android:textSize="18sp"/>
+    </com.samsung.isharecar.RevealLayout>
+
+</LinearLayout>

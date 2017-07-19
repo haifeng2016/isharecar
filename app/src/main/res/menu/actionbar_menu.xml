@@ -1,0 +1,10 @@
+<menu 
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+     <!--<item-->
+        <!--android:id="@+id/charge_rule"-->
+        <!--android:icon="@drawable/charge_rule"-->
+        <!--android:showAsAction="always"-->
+        <!--android:title="@string/charge_rule"/>-->
+
+</menu>

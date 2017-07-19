@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color> <!-- 白色 -->
+    <color name="black">#000000</color> <!-- 黑色 -->
+    <color name="blue">#45C01A</color> <!-- 蓝色 -->
+    <color name="orange">#FB6B00</color> <!-- 橙色 -->
+    <color name="red">#F00</color> <!-- 红色 -->
+    <color name="lightwhite">#fff</color>
+    <color name="gray">#F2F2F2</color> <!-- 灰色，整个app的背景色 -->
+    <color name="hometowngray">#939393</color> <!-- 灰色，整个app的背景色 -->
+    <color name="lightgray">#222222</color> <!-- 轻灰色，actionbar的背景色 -->
+    <color name="dataeditgray">#6B6F72</color> <!-- 信息完善部分选择结果的字体颜色为灰色 -->
+    <color name="transparent">#FFFFFF</color> <!-- 下拉刷新 -->
+    <color name="wechatactionbar">#393A3F</color> <!-- 微信actionbar背景色-->
+    <color name="deepgray">#303135</color> <!-- 深灰色-->
+    <color name="griditems_bg">#ffe8ecef</color>
+    <color name="commo_text_color">#ff333333</color>
+    <color name="line">#D9D9D9</color>
+    <color name="reveal_color">#1b000000</color><!-- 水波纹背景色-->
+    <color name="wechatgreen">#1AAD19</color><!-- 微信蓝-->
+    <color name="baidumapbackground">#CCCCCC</color><!-- 百度地图背景色-->
+    <color name="tabbackground">#FAFAFA</color><!-- 首页底边导航栏背景色-->
+
+</resources>

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/headtextview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/head"
+            android:textSize="16sp"/>
+
+        <ImageView
+            android:id="@+id/headinfo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="2"
+            android:scaleType="fitEnd"
+            android:contentDescription="@string/hello_world"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/fengefu1"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+
+    <LinearLayout
+        android:id="@+id/nickname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/nicknametextview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/nickname"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/nicknameinfo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="2"
+            android:textColor="@color/dataeditgray"
+            android:gravity="right"
+            android:singleLine="true"
+			android:ellipsize="end"
+			android:textSize="15sp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/fengefu2"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+
+    <LinearLayout
+        android:id="@+id/age"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/agetextview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/age"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/ageinfo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="2"
+            android:textColor="@color/dataeditgray"
+            android:gravity="right"
+            android:singleLine="true"
+			android:ellipsize="end"
+			android:textSize="15sp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/fengefu3"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+
+    <LinearLayout
+        android:id="@+id/job"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/jobtextview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/job"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/jobinfo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="2"
+            android:textColor="@color/dataeditgray"
+            android:gravity="right"
+            android:singleLine="true"
+			android:ellipsize="end"
+			android:textSize="15sp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/fengefu4"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+
+    <LinearLayout
+        android:id="@+id/signature"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/signaturetextview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/signature"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/signatureinfo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="2"
+            android:textColor="@color/dataeditgray"
+            android:gravity="right"
+            android:singleLine="true"
+			android:ellipsize="end"
+			android:textSize="15sp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/fengefu5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <LinearLayout
+        android:id="@+id/sex"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/sextextview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/sex"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/sexinfo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="2"
+            android:textColor="@color/dataeditgray"
+            android:gravity="right"
+            android:singleLine="true"
+			android:ellipsize="end"
+			android:textSize="15sp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/fengefu6"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+
+    <LinearLayout
+        android:id="@+id/ht"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+        
+        <TextView
+            android:id="@+id/hometown1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:text="@string/hometown"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/hometown"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="right"
+            android:singleLine="true"
+			android:ellipsize="end"
+			android:textColor="@color/dataeditgray"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="3"
+            android:textSize="15sp"/>
+      </LinearLayout>
+    </LinearLayout>

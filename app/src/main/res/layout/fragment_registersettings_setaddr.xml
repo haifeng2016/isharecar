@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/registersettings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/setaddr"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/home_addr"
+            android:textColor="@color/orange"
+            android:textSize="20sp"/>
+        
+        
+        <TextView
+            android:id="@+id/sethomenametextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"/>
+        
+        <TextView
+            android:id="@+id/sethomeaddrtextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:alpha="0.7"
+            android:ellipsize="end"
+            android:textSize="16sp"/>
+        
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/setaddrfengefu1"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"/>
+
+   <LinearLayout
+        android:id="@+id/setaddr1"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+        
+       <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/office_addr"
+            android:textColor="@color/orange"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/setofficenametextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp"/>
+        
+        <TextView
+            android:id="@+id/setofficeaddrtextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:alpha="0.7"
+            android:ellipsize="end"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+</LinearLayout>

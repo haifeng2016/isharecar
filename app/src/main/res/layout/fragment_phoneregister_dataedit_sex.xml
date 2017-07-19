@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray">
+    
+    <RadioGroup
+            android:id="@+id/sex"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_marginTop="50dp"
+            android:background="@color/white">
+
+            <RadioButton
+                android:id="@+id/male"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/male"
+                android:checked="true"/>
+            
+            <TextView
+            	android:id="@+id/register_fengefu"
+            	android:layout_width="match_parent"
+            	android:layout_height="2dp"
+            	android:background="@color/gray"/>
+
+            <RadioButton
+                android:id="@+id/female"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/female"/>
+        </RadioGroup>
+
+    <Button
+        android:id="@+id/sexsave"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="60dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:background="@drawable/roundedbtnshape"
+        android:textColor="@color/white"
+        android:text="@string/save"/>
+
+</LinearLayout>

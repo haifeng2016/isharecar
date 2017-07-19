@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/gray">
+    
+    <EditText
+        android:id="@+id/nickname"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/rounded_edittext"
+        android:hint="@string/nicknamehint"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:singleLine="true"
+        android:maxLength="20"/>
+    <requestFocus/>
+
+    <Button
+        android:id="@+id/nicknamesave"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="60dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:background="@drawable/roundedbtnshape"
+        android:textColor="@color/white"
+        android:text="@string/save"/>
+
+</LinearLayout>

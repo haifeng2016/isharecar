@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="passenger_edittext_left_padding">30dp</dimen>
+    <dimen name="passenger_edittext_right_padding">30dp</dimen>
+    <dimen name="passenger_edittext_top_padding">20dp</dimen>
+    <dimen name="passenger_edittext_bottom_padding">60dp</dimen>
+    <dimen name="passenger_edittext_top_margin">20dp</dimen>
+    <dimen name="passenger_button_left_padding">30dp</dimen>
+    <dimen name="passenger_button_right_padding">30dp</dimen>
+    <dimen name="passenger_edittext_top_layout">50dp</dimen>
+    <dimen name="info_activity_top_margin">5dp</dimen>
+    <dimen name="info_activity_start_margin">5dp</dimen>
+    <dimen name="info_activity_end_margin">5dp</dimen>
+    <dimen name="info_activity_bottom_margin">5dp</dimen>
+    <dimen name="infobroadcast_textview_top_margin">10dp</dimen>
+    <dimen name="infobroadcast_textview_bottom_margin">10dp</dimen>
+    <dimen name="infobroadcast_textview_start_margin">15dp</dimen>
+    <dimen name="infobroadcast_textview_end_margin">15dp</dimen>
+    <dimen name="infobroadcast_subtextview_start_margin">15dp</dimen>
+    <dimen name="infobroadcast_subtextview_end_margin">15dp</dimen>
+    <dimen name="infobroadcast_subtextview_bottom_margin">10dp</dimen>
+    <dimen name="infonotice_textview_top_margin">10dp</dimen>
+    <dimen name="infonotice_textview_bottom_margin">10dp</dimen>
+    <dimen name="infonotice_textview_start_margin">15dp</dimen>
+    <dimen name="infonotice_textview_end_margin">15dp</dimen>
+    <dimen name="infonotice_subtextview_start_margin">15dp</dimen>
+    <dimen name="infonotice_subtextview_end_margin">15dp</dimen>
+    <dimen name="infonotice_subtextview_bottom_margin">10dp</dimen>
+    
+</resources>

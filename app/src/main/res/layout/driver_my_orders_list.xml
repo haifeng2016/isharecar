@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/passenger_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/driverpo"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/orange"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/driverorder"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:contentDescription="@string/hello_world"
+            android:src="@drawable/driverorder" />
+
+        <TextView
+            android:id="@+id/DriverRouteTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:text="@string/driver_route_title_driverview"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/passengerViewRoute"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/driverpo1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/wechatgreen"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/passengerorder"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:contentDescription="@string/hello_world"
+            android:src="@drawable/driverorder" />
+
+        <TextView
+            android:id="@+id/PassengerRouteTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:text="@string/passenger_route_title_driverview"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listViewRoute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView 
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="@color/white"/>
+
+</LinearLayout>

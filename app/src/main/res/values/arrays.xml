@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="info">
+        <item>广播</item>
+        <item>活动</item>
+        <item>通知</item>
+    </string-array>
+    
+    <string-array name="age">
+        <item>00后</item>
+        <item>90后</item>
+        <item>80后</item>
+        <item>70后</item>
+        <item>60后</item>
+        <item>50后</item>
+        <item>老人家</item>
+    </string-array>
+
+</resources>
